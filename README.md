@@ -16,3 +16,15 @@ Questões importantes que devem ser respondidads:
 <p>A entidade "Turma" possui no mínimo "1" e no máximo "N" "Cursos". "Cursos" pode estar em "0" ou "N" "Turmas".</p>
 <p>Uma "Turma" pode ter "0" ou no máximo "N" "Aluno"."Aluno" pode estar no minimo "1" e máximo "N" Turmas </p>
 <p>Um "Aluno" pode estar em "0" ou "N" "Cursos" e Cursos pode ter "0" ou "N" "Alunos"</p>
+
+### 2 Registros possíveis para cada tabela seria:
+<p>
+INSERT INTO ALUNO (matricula, telefone, nome, email) VALUES (01, 2132332743, "Paulo Victor Rodrigues", "paulo@gmail.com");
+INSERT INTO ALUNO (matricula, telefone, nome, email) VALUES (02, 2122339949, "Joao Victor", "joao@gmail.com");
+
+INSERT INTO ALUNO (matricula, telefone, nome, email) VALUES (01, 2132332743, "Paulo Victor Rodrigues", "paulo@gmail.com");
+INSERT INTO ALUNO (matricula, telefone, nome, email) VALUES (02, 2122339949, "Joao Victor", "joao@gmail.com");
+
+INSERT INTO CURSOS (id_curso, unidade, nome, modalidade) VALUES (01,"Madureira","Programador Carioca","presencial");
+INSERT INTO CURSOS (id_curso, unidade, nome, modalidade) VALUES (02,"Botafogo","Marketing","presencial");
+</p>
